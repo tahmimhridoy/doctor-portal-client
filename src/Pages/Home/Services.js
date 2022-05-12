@@ -3,6 +3,7 @@ import Service from './Service';
 import fluoride from '../../assets/images/fluoride.png';
 import cavity from '../../assets/images/cavity.png';
 import whitening from '../../assets/images/whitening.png';
+import TeethService from './TeethService';
 
 const Services = () => {
     const services = [
@@ -39,6 +40,7 @@ const Services = () => {
                     ></Service>)
                 }
             </div>
+            <TeethService></TeethService>
         </div>
     );
 };
